@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "CenteriaScript";
+  src: url(Fonts/CenteriaScriptDemo.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -80,9 +84,9 @@
   left: 45%;
   top: 35%;
 
-  font-family: "Brush Script MT";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "CenteriaScript";
+  font-style: bold;
+  font-weight: 500;
   font-size: 64px;
   line-height: 80px;
 
@@ -99,9 +103,9 @@
   left: 48%;
   top: 45%;
 
-  font-family: "Brush Script MT";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "CenteriaScript";
+  font-style: bold;
+  font-weight: 500;
   font-size: 64px;
   line-height: 80px;
 
@@ -118,9 +122,9 @@
   right: 45%;
   top: 53%;
 
-  font-family: "Brush Script MT";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "CenteriaScript";
+  font-style: bold;
+  font-weight: 500;
   font-size: 64px;
   line-height: 80px;
 
