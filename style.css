@@ -14,6 +14,7 @@
   background-repeat: no-repeat;
   background-position: center bottom 35%;
   height: 100vh;
+  overflow: auto;
 }
 .buka {
   position: absolute;
@@ -42,7 +43,7 @@
   /* Putri */
 
   position: absolute;
-  width: 300px;
+  width: 275px;
   height: 39px;
   left: 21%;
   top: 22%;
