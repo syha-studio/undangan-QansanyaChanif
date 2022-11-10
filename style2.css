@@ -19,7 +19,7 @@
 .buka {
   position: absolute;
   left: 20%;
-  top: 10%;
+  top: 7%;
 }
 .sambut {
   /* Kepada Bapak/Ibu/Saudara/i */
@@ -43,7 +43,7 @@
   /* Putri */
 
   position: absolute;
-  width: 400px;
+  width: 275px;
   height: 39px;
   left: 21%;
   top: 22%;
@@ -51,7 +51,7 @@
   font-family: "DM Serif Display";
   font-style: italic;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 44px;
   display: flex;
   align-items: center;
@@ -63,10 +63,10 @@
   /* Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami */
 
   position: absolute;
-  width: 300px;
+  width: 250px;
   height: 51px;
   left: 21%;
-  top: 30%;
+  top: 28%;
 
   font-family: "Times New Roman";
   font-style: bold;
@@ -82,13 +82,13 @@
   position: absolute;
   width: 127px;
   height: 76px;
-  left: 56%;
-  top: 51%;
+  left: 45%;
+  top: 35%;
 
   font-family: "CenteriaScript";
   font-style: bold;
   font-weight: 500;
-  font-size: 150px;
+  font-size: 64px;
   line-height: 80px;
 
   color: #ffffff;
@@ -101,13 +101,13 @@
   position: absolute;
   width: 66px;
   height: 81px;
-  left: 50%;
-  top: 43%;
+  left: 48%;
+  top: 45%;
 
   font-family: "CenteriaScript";
   font-style: bold;
   font-weight: 500;
-  font-size: 100px;
+  font-size: 64px;
   line-height: 80px;
 
   color: #ffffff;
@@ -120,13 +120,13 @@
   position: absolute;
   width: 190px;
   height: 76px;
-  right: 70%;
-  top: 50%;
+  right: 45%;
+  top: 53%;
 
   font-family: "CenteriaScript";
   font-style: bold;
   font-weight: 500;
-  font-size: 150px;
+  font-size: 64px;
   line-height: 80px;
 
   color: #ffffff;
@@ -135,6 +135,51 @@
 }
 .foot {
   font-family: "Times New Roman", Times, serif;
+}
+.bg {
+  background-color: #ffffff;
+  background-size: auto;
+  overflow: scroll;
+}
+.bgdiv1 {
+  background-image: url(img/Home.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom 35%;
+  height: 100vh;
+  overflow: scroll;
+}
+.bgdiv2 {
+  background-image: url(img/Div2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom 35%;
+  height: 100vh;
+  overflow: y;
+}
+.bgdiv3 {
+  background-image: url(img/Div3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom 35%;
+  height: 100vh;
+  overflow: y;
+}
+.bgdiv4 {
+  background-image: url(img/Div4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom 35%;
+  height: 100vh;
+  overflow: y;
+}
+.bgdiv5 {
+  background-image: url(img/Div5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom 35%;
+  height: 100vh;
+  overflow: y;
 }
 @media screen and (max-width: 1000px) {
   .buka {
