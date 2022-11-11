@@ -6,416 +6,361 @@
   margin: 0;
   padding: 0;
 }
-.background {
-  background-color: #c45461;
-
-  background-image: url(img/bg-lpage.png);
-  background-size: cover;
+div {
+  width: 500px;
+  justify-content: center;
+  margin: auto;
+}
+/* BACKGROUND */
+.bg {
+  background-color: #cbcbcb;
+  background-size: auto;
+  width: auto;
+}
+.galeri {
+  background-image: url(img/Galeri.png);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom 35%;
-  height: 100vh;
-  overflow: auto;
+  height: 800px;
+  width: 500px;
 }
-.buka {
-  position: absolute;
-  left: 20%;
-  top: 7%;
+.doa {
+  background-image: url(img/Doa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom 35%;
+  height: 800px;
+  width: 500px;
 }
-.sambut {
-  /* Kepada Bapak/Ibu/Saudara/i */
+/* AKHIR BACKGROUND */
 
-  position: absolute;
-  width: 200px;
-  height: 17px;
-  left: 21%;
-  top: 17%;
-
-  font-family: "Times New Roman";
-  font-style: bold;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 17px;
-  /* identical to box height */
-
-  color: #ffffff;
+/* HOME */
+.home {
+  background-image: url(img/Home.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom 35%;
+  height: 800px;
+  width: 500px;
 }
-.nama {
-  /* Putri */
+.home-d1 {
+  position: relative;
+  width: 40px;
+  height: 25px;
+  left: 230px;
+  top: 30px;
 
-  position: absolute;
-  width: 275px;
-  height: 39px;
-  left: 21%;
-  top: 22%;
-
-  font-family: "DM Serif Display";
-  font-style: italic;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 44px;
+  font-family: "Italianno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
   display: flex;
   align-items: center;
   text-align: center;
 
   color: #ffffff;
 }
-.undang {
-  /* Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami */
+.home-d2 {
+  position: relative;
+  width: 382px;
+  height: 46px;
+  left: 59px;
+  top: 15px;
 
-  position: absolute;
-  width: 250px;
-  height: 51px;
-  left: 21%;
-  top: 28%;
-
-  font-family: "Times New Roman";
-  font-style: bold;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 17px;
-
-  color: #ffffff;
-}
-
-.mempelai1 {
-  /* Chanif */
-  position: absolute;
-  width: 127px;
-  height: 76px;
-  left: 45%;
-  top: 35%;
-
-  font-family: "CenteriaScript";
-  font-style: bold;
-  font-weight: 500;
-  font-size: 64px;
+  font-family: "Italianno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
   line-height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
   color: #ffffff;
-
-  text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
 }
-.mempelai2 {
+.home-d3 {
+  position: relative;
+  width: 236px;
+  height: 35px;
+  left: 132px;
+  top: 0px;
+
+  font-family: "Italianno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.home-m1 {
+  /* Nur Chanif Choiri */
+
+  position: relative;
+  width: 324px;
+  height: 37px;
+  left: 88px;
+  top: 350px;
+
+  font-family: "Berkshire Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.095em;
+
+  color: #ddac17;
+}
+.home-m2 {
   /* & */
 
-  position: absolute;
-  width: 66px;
-  height: 81px;
-  left: 48%;
-  top: 45%;
+  position: relative;
+  width: 30px;
+  height: 28px;
+  left: 235px;
+  top: 350px;
 
-  font-family: "CenteriaScript";
-  font-style: bold;
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 80px;
+  font-family: "Berkshire Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-  color: #ffffff;
-
-  text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
+  color: #ddac17;
 }
-.mempelai3 {
-  /* Qansanya */
+.home-m3 {
+  position: relative;
+  width: 330px;
+  height: 37px;
+  left: 85px;
+  top: 350px;
 
-  position: absolute;
-  width: 190px;
-  height: 76px;
-  right: 45%;
-  top: 53%;
+  font-family: "Berkshire Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-  font-family: "CenteriaScript";
-  font-style: bold;
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 80px;
-
-  color: #ffffff;
-
-  text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
+  color: #ddac17;
 }
+/* AKHIR HOME */
+
+/* DATE */
+.date {
+  background-image: url(img/Date.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom 35%;
+  height: 1000px;
+  width: 500px;
+  overflow: hidden;
+}
+.date-h {
+  position: relative;
+  width: 120px;
+  height: 18px;
+  top: 60px;
+  margin-left: 190px;
+
+  font-family: "Berkshire Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #e0bd00;
+}
+.date-d {
+  position: relative;
+  width: 174px;
+  height: 83px;
+  top: 45px;
+  margin-left: 162px;
+
+  font-family: "Inria Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+.date-lokasi {
+  position: relative;
+  width: 123px;
+  height: 32px;
+  margin-left: 180px;
+  top: 25px;
+}
+.date-cd {
+  width: 325px;
+  height: 100 px;
+  position: relative;
+  top: 150px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 297px;
+  height: 73px;
+
+  background: rgba(118, 22, 32, 0.7);
+  box-shadow: 7px 6px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+}
+.date-cd h2 {
+  position: relative;
+  left: 50px;
+  top: 20px;
+  font-size: x-large;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+.date-cd div {
+  position: relative;
+  width: 100px;
+  height: 41px;
+
+  background: rgba(118, 22, 32, 0.7);
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  text-align: start;
+  padding-left: 20px;
+  padding-top: 1px;
+  left: -90px;
+  top: -23px;
+  font-size: x-large;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+.date-cd h3 {
+  position: relative;
+  left: -70px;
+  top: -55px;
+  font-size: larger;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+/* AKHIR DATE */
+
+/* RSVP */
+.rsvp {
+  position: relative;
+  top: 200px;
+  background: rgba(118, 22, 32, 0.7);
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  text-align: start;
+  padding-top: 10px;
+  padding-left: 50px;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  width: 450px;
+}
+.rsvp h1 {
+  margin-left: 130px;
+}
+form,
+input,
+textarea,
+button {
+  font-family: inherit;
+  font-size: initial;
+}
+.form-group label {
+  display: block;
+  margin: 0.5rem 0 0.25rem 0;
+}
+.form-group [type="text"],
+.form-group [type="email"] {
+  width: 350px;
+  padding: 0.1rem;
+  border: 1px solid rgba(118, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #ffd9d9;
+}
+.form-group [class="hadir"] {
+  width: 100px;
+  padding: 0.1rem;
+  border: 1px solid rgba(118, 0, 0, 0.25);
+  border-radius: 5px;
+  background: #ffd9d9;
+}
+.submit {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fd1d1d;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-left: 129px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+}
+/* AKHIR RSVP*/
+
+/* FOOTER */
 .foot {
   font-family: "Times New Roman", Times, serif;
 }
-.bg {
-  background-color: #ffffff;
-  background-size: auto;
-  overflow: scroll;
-}
-.bgdiv1 {
-  background-image: url(img/Home.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 100vh;
-  overflow: scroll;
-}
-.bgdiv2 {
-  background-image: url(img/Div2.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 100vh;
-  overflow: y;
-}
-.bgdiv3 {
-  background-image: url(img/Div3.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 100vh;
-  overflow: y;
-}
-.bgdiv4 {
-  background-image: url(img/Div4.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 100vh;
-  overflow: y;
-}
-.bgdiv5 {
-  background-image: url(img/Div5.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 100vh;
-  overflow: y;
-}
-@media screen and (max-width: 1000px) {
-  .buka {
-    position: absolute;
-    left: 17%;
-    top: 7%;
+/* AKHIR FOOTER */
+
+@media screen and (max-width: 450px) {
+  /* BACKGROUND */
+  .bg {
+    background-color: #774c50;
+    background-size: auto;
+    overflow: auto;
   }
-  .sambut {
-    /* Kepada Bapak/Ibu/Saudara/i */
-
-    position: absolute;
-    width: 200px;
-    height: 17px;
-    left: 18%;
-    top: 12%;
-
-    font-family: "Times New Roman";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 17px;
-    /* identical to box height */
-
-    color: #ffffff;
+  .home {
+    background-image: url(img/Home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 35%;
+    height: 100vh;
   }
-  .nama {
-    /* Putri */
-
-    position: absolute;
-    width: 275px;
-    height: 39px;
-    left: 18%;
-    top: 18%;
-
-    font-family: "DM Serif Display";
-    font-style: italic;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #ffffff;
+  .date {
+    background-image: url(img/Date.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 35%;
+    height: 100vh;
   }
-  .undang {
-    /* Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami */
-
-    position: absolute;
-    width: 275px;
-    height: 51px;
-    left: 18%;
-    top: 25%;
-
-    font-family: "Times New Roman";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 17px;
-
-    color: #ffffff;
+  .galeri {
+    background-image: url(img/Galeri.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 35%;
+    height: 100vh;
   }
-
-  .mempelai1 {
-    /* Chanif */
-    position: absolute;
-    width: 127px;
-    height: 76px;
-    left: 50%;
-    top: 33%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 100px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
+  .doa {
+    background-image: url(img/Doa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 35%;
+    height: 100vh;
   }
-  .mempelai2 {
-    /* & */
-
-    position: absolute;
-    width: 66px;
-    height: 81px;
-    left: 48%;
-    top: 42%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 100px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
-  .mempelai3 {
-    /* Qansanya */
-
-    position: absolute;
-    width: 190px;
-    height: 76px;
-    right: 60%;
-    top: 50%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 100px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
-}
-@media screen and (max-width: 500px) {
-  .buka {
-    position: absolute;
-    left: 15%;
-    top: 7%;
-  }
-  .sambut {
-    /* Kepada Bapak/Ibu/Saudara/i */
-
-    position: absolute;
-    width: 200px;
-    height: 17px;
-    left: 16%;
-    top: 15%;
-
-    font-family: "Times New Roman";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    color: #ffffff;
-  }
-  .nama {
-    /* Putri */
-
-    position: absolute;
-    width: 235px;
-    height: 39px;
-    left: 16%;
-    top: 18%;
-
-    font-family: "DM Serif Display";
-    font-style: italic;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #ffffff;
-  }
-  .undang {
-    /* Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami */
-
-    position: absolute;
-    width: 200px;
-    height: 51px;
-    left: 16%;
-    top: 24%;
-
-    font-family: "Times New Roman";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 17px;
-
-    color: #ffffff;
-  }
-
-  .mempelai1 {
-    /* Chanif */
-    position: absolute;
-    width: 127px;
-    height: 76px;
-    left: 48%;
-    top: 36%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
-  .mempelai2 {
-    /* & */
-
-    position: absolute;
-    width: 66px;
-    height: 81px;
-    left: 48%;
-    top: 45%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
-  .mempelai3 {
-    /* Qansanya */
-
-    position: absolute;
-    width: 190px;
-    height: 76px;
-    right: 35%;
-    top: 54%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
+  /* AKHIR BACKGROUND */
 }
