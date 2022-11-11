@@ -11,356 +11,879 @@ div {
   justify-content: center;
   margin: auto;
 }
-/* BACKGROUND */
 .bg {
   background-color: #cbcbcb;
-  background-size: auto;
-  width: auto;
-}
-.galeri {
-  background-image: url(img/Galeri.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 800px;
+  background-size: cover;
+  position: relative;
   width: 500px;
 }
-.doa {
-  background-image: url(img/Doa.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 800px;
-  width: 500px;
-}
-/* AKHIR BACKGROUND */
-
-/* HOME */
-.home {
-  background-image: url(img/Home.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 800px;
-  width: 500px;
-}
-.home-d1 {
-  position: relative;
-  width: 40px;
-  height: 25px;
-  left: 230px;
-  top: 30px;
-
-  font-family: "Italianno";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #ffffff;
-}
-.home-d2 {
-  position: relative;
-  width: 382px;
-  height: 46px;
-  left: 59px;
-  top: 15px;
-
-  font-family: "Italianno";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 80px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #ffffff;
-}
-.home-d3 {
-  position: relative;
-  width: 236px;
-  height: 35px;
-  left: 132px;
-  top: 0px;
-
-  font-family: "Italianno";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 40px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  color: #ffffff;
-}
-.home-m1 {
-  /* Nur Chanif Choiri */
-
-  position: relative;
-  width: 324px;
-  height: 37px;
-  left: 88px;
-  top: 350px;
-
-  font-family: "Berkshire Swash";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 45px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.095em;
-
-  color: #ddac17;
-}
-.home-m2 {
-  /* & */
-
-  position: relative;
-  width: 30px;
-  height: 28px;
-  left: 235px;
-  top: 350px;
-
-  font-family: "Berkshire Swash";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 45px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #ddac17;
-}
-.home-m3 {
-  position: relative;
-  width: 330px;
-  height: 37px;
-  left: 85px;
-  top: 350px;
-
-  font-family: "Berkshire Swash";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 45px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #ddac17;
-}
-/* AKHIR HOME */
-
-/* DATE */
-.date {
-  background-image: url(img/Date.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 1000px;
-  width: 500px;
-  overflow: hidden;
-}
-.date-h {
-  position: relative;
-  width: 120px;
-  height: 18px;
-  top: 60px;
-  margin-left: 190px;
-
-  font-family: "Berkshire Swash";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 40px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #e0bd00;
-}
-.date-d {
-  position: relative;
-  width: 174px;
-  height: 83px;
-  top: 45px;
-  margin-left: 162px;
-
-  font-family: "Inria Serif";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #000000;
-}
-.date-lokasi {
-  position: relative;
-  width: 123px;
-  height: 32px;
-  margin-left: 180px;
-  top: 25px;
-}
-.date-cd {
-  width: 325px;
-  height: 100 px;
-  position: relative;
-  top: 150px;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  width: 297px;
-  height: 73px;
-
-  background: rgba(118, 22, 32, 0.7);
-  box-shadow: 7px 6px 6px rgba(0, 0, 0, 0.25);
-  border-radius: 11px;
-}
-.date-cd h2 {
-  position: relative;
-  left: 50px;
-  top: 20px;
-  font-size: x-large;
-  color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
-}
-.date-cd div {
-  position: relative;
-  width: 100px;
-  height: 41px;
-
-  background: rgba(118, 22, 32, 0.7);
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 11px;
-  text-align: start;
-  padding-left: 20px;
-  padding-top: 1px;
-  left: -90px;
-  top: -23px;
-  font-size: x-large;
-  color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
-}
-.date-cd h3 {
-  position: relative;
-  left: -70px;
-  top: -55px;
-  font-size: larger;
-  color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
-}
-/* AKHIR DATE */
-
-/* RSVP */
-.rsvp {
-  position: relative;
-  top: 200px;
-  background: rgba(118, 22, 32, 0.7);
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 15px;
-  text-align: start;
-  padding-top: 10px;
-  padding-left: 50px;
-  color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
-  width: 450px;
-}
-.rsvp h1 {
-  margin-left: 130px;
-}
-form,
-input,
-textarea,
-button {
-  font-family: inherit;
-  font-size: initial;
-}
-.form-group label {
-  display: block;
-  margin: 0.5rem 0 0.25rem 0;
-}
-.form-group [type="text"],
-.form-group [type="email"] {
-  width: 350px;
-  padding: 0.1rem;
-  border: 1px solid rgba(118, 0, 0, 0.25);
-  border-radius: 5px;
-  background: #ffd9d9;
-}
-.form-group [class="hadir"] {
-  width: 100px;
-  padding: 0.1rem;
-  border: 1px solid rgba(118, 0, 0, 0.25);
-  border-radius: 5px;
-  background: #ffd9d9;
-}
-.submit {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #fd1d1d;
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
-  color: white;
-  font-weight: bold;
-  margin-top: 1.5rem;
-  margin-left: 129px;
-  padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
-  border-radius: 20px;
-  position: relative;
-}
-/* AKHIR RSVP*/
-
-/* FOOTER */
-.foot {
-  font-family: "Times New Roman", Times, serif;
-}
-/* AKHIR FOOTER */
-
-@media screen and (max-width: 450px) {
-  /* BACKGROUND */
-  .bg {
-    background-color: #774c50;
-    background-size: auto;
-    overflow: auto;
-  }
+@media screen and (min-width: 480px) {
+  /* HOME */
   .home {
     background-image: url(img/Home.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom 35%;
-    height: 100vh;
+    height: 800px;
+    width: 500px;
   }
+  .home-d1 {
+    position: relative;
+    width: 40px;
+    height: 25px;
+    left: 230px;
+    top: 30px;
+
+    font-family: "Italianno";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .home-d2 {
+    position: relative;
+    width: 382px;
+    height: 46px;
+    left: 59px;
+    top: 15px;
+
+    font-family: "Italianno";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .home-d3 {
+    position: relative;
+    width: 236px;
+    height: 35px;
+    left: 132px;
+    top: 0px;
+
+    font-family: "Italianno";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+  }
+  .home-m1 {
+    /* Nur Chanif Choiri */
+
+    position: relative;
+    width: 324px;
+    height: 37px;
+    left: 88px;
+    top: 350px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.095em;
+
+    color: #ddac17;
+  }
+  .home-m2 {
+    /* & */
+
+    position: relative;
+    width: 30px;
+    height: 28px;
+    left: 235px;
+    top: 350px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ddac17;
+  }
+  .home-m3 {
+    position: relative;
+    width: 330px;
+    height: 37px;
+    left: 85px;
+    top: 350px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ddac17;
+  }
+  /* AKHIR HOME */
+
+  /* DATE */
   .date {
     background-image: url(img/Date.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom 35%;
-    height: 100vh;
+    height: 1000px;
+    width: 500px;
+    overflow: hidden;
   }
+  .date-h {
+    position: relative;
+    width: 120px;
+    height: 18px;
+    top: 60px;
+    margin-left: 190px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #e0bd00;
+  }
+  .date-d {
+    position: relative;
+    width: 174px;
+    height: 83px;
+    top: 45px;
+    margin-left: 162px;
+
+    font-family: "Inria Serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+  .date-lokasi {
+    position: relative;
+    width: 123px;
+    height: 32px;
+    margin-left: 180px;
+    top: 25px;
+  }
+  .date-cd {
+    width: 325px;
+    height: 100 px;
+    position: relative;
+    top: 150px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 297px;
+    height: 73px;
+
+    background: rgba(118, 22, 32, 0.7);
+    box-shadow: 7px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+  }
+  .date-cd h2 {
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-size: x-large;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .date-cd div {
+    position: relative;
+    width: 100px;
+    height: 41px;
+
+    background: rgba(118, 22, 32, 0.7);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 1px;
+    left: -90px;
+    top: -23px;
+    font-size: x-large;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .date-cd h3 {
+    position: relative;
+    left: -70px;
+    top: -55px;
+    font-size: larger;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  /* AKHIR DATE */
+
+  /* RSVP */
+  .rsvp {
+    position: relative;
+    top: 200px;
+    background: rgba(118, 22, 32, 0.7);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    width: 450px;
+  }
+  .rsvp h1 {
+    margin-left: 130px;
+  }
+  form,
+  input,
+  textarea,
+  button {
+    font-family: inherit;
+    font-size: initial;
+  }
+  .form-group {
+    width: 400px;
+  }
+  .form-group label {
+    display: block;
+    margin: 0.5rem 0 0.25rem 0;
+  }
+  .form-group [type="text"],
+  .form-group [type="email"] {
+    width: 350px;
+    padding: 0.1rem;
+    border: 1px solid rgba(118, 0, 0, 0.25);
+    border-radius: 5px;
+    background: #ffd9d9;
+  }
+  .form-group [class="hadir"] {
+    width: 100px;
+    padding: 0.1rem;
+    border: 1px solid rgba(118, 0, 0, 0.25);
+    border-radius: 5px;
+    background: #ffd9d9;
+  }
+  .submit {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fd1d1d;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 129px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+  }
+  /* AKHIR RSVP*/
+
+  /* GALLERY*/
   .galeri {
     background-image: url(img/Galeri.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom 35%;
-    height: 100vh;
+    height: 600px;
+    width: 500px;
   }
+  .galeri h1 {
+    position: relative;
+    width: 260px;
+    height: 37px;
+    left: 120px;
+    top: 527px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 550;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.095em;
+
+    color: #ffffff;
+  }
+  /* AKHIR GALLERY*/
+
+  /* DOA */
   .doa {
     background-image: url(img/Doa.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom 35%;
-    height: 100vh;
+    height: 900px;
+    width: 500px;
   }
-  /* AKHIR BACKGROUND */
+  .doa p {
+    position: relative;
+    width: 380px;
+    height: 350px;
+    left: 60px;
+    top: 100px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  /* AKHIR DOA */
+
+  /* KIRIM PESAN */
+  .pesan {
+    width: 500px;
+    height: 500px;
+  }
+  .kirimpesan {
+    position: relative;
+    top: 50px;
+    background: rgba(118, 22, 32, 0.7);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-align: start;
+    padding-top: 15px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    width: 450px;
+  }
+  .kirimpesan h3 {
+    margin-left: 15px;
+  }
+  form,
+  input,
+  textarea,
+  button {
+    font-family: inherit;
+    font-size: initial;
+  }
+  .form-g {
+    width: 400px;
+  }
+  .form-g label {
+    display: block;
+    margin: 0.5rem 0 0.25rem 0;
+  }
+  .form-g [type="text"],
+  .form-g [type="email"],
+  .form-g textarea {
+    width: 350px;
+    padding: 0.1rem;
+    border: 1px solid rgba(118, 0, 0, 0.25);
+    border-radius: 5px;
+    background: #ffd9d9;
+  }
+  .kirim {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fd1d1d;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 129px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+  }
+  /* AKHIR KIRIM PESAN */
+
+  /* PENUTUP */
+  .penutup {
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+  }
+  .penutup p {
+    padding: 50px 90px 50px 90px;
+    line-height: normal;
+    font-weight: 700;
+  }
+  /* AKHIR PENUTUP */
+
+  /* FOOTER */
+  .foot {
+    font-family: "Times New Roman", Times, serif;
+  }
+  /* AKHIR FOOTER */
+}
+
+@media screen and (max-width: 480px) {
+  .bg {
+    background-color: #cbcbcb;
+    background-size: auto;
+    width: auto;
+  }
+
+  /* HOME */
+  .home {
+    background-image: url(img/Home.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom 35%;
+    height: 800px;
+    width: 500px;
+  }
+  .home-d1 {
+    position: relative;
+    width: 40px;
+    height: 25px;
+    left: 230px;
+    top: 30px;
+
+    font-family: "Italianno";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .home-d2 {
+    position: relative;
+    width: 382px;
+    height: 46px;
+    left: 59px;
+    top: 15px;
+
+    font-family: "Italianno";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .home-d3 {
+    position: relative;
+    width: 236px;
+    height: 35px;
+    left: 132px;
+    top: 0px;
+
+    font-family: "Italianno";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+  }
+  .home-m1 {
+    /* Nur Chanif Choiri */
+
+    position: relative;
+    width: 324px;
+    height: 37px;
+    left: 88px;
+    top: 350px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.095em;
+
+    color: #ddac17;
+  }
+  .home-m2 {
+    /* & */
+
+    position: relative;
+    width: 30px;
+    height: 28px;
+    left: 235px;
+    top: 350px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ddac17;
+  }
+  .home-m3 {
+    position: relative;
+    width: 330px;
+    height: 37px;
+    left: 85px;
+    top: 350px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ddac17;
+  }
+  /* AKHIR HOME */
+
+  /* DATE */
+  .date {
+    background-image: url(img/Date.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom 35%;
+    height: 1000px;
+    width: 500px;
+    overflow: hidden;
+  }
+  .date-h {
+    position: relative;
+    width: 120px;
+    height: 18px;
+    top: 60px;
+    margin-left: 190px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #e0bd00;
+  }
+  .date-d {
+    position: relative;
+    width: 174px;
+    height: 83px;
+    top: 45px;
+    margin-left: 162px;
+
+    font-family: "Inria Serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+  .date-lokasi {
+    position: relative;
+    width: 123px;
+    height: 32px;
+    margin-left: 180px;
+    top: 25px;
+  }
+  .date-cd {
+    width: 325px;
+    height: 100 px;
+    position: relative;
+    top: 150px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 297px;
+    height: 73px;
+
+    background: rgba(118, 22, 32, 0.7);
+    box-shadow: 7px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+  }
+  .date-cd h2 {
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-size: x-large;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .date-cd div {
+    position: relative;
+    width: 100px;
+    height: 41px;
+
+    background: rgba(118, 22, 32, 0.7);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 1px;
+    left: -90px;
+    top: -23px;
+    font-size: x-large;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .date-cd h3 {
+    position: relative;
+    left: -70px;
+    top: -55px;
+    font-size: larger;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  /* AKHIR DATE */
+
+  /* RSVP */
+  .rsvp {
+    position: relative;
+    top: 200px;
+    background: rgba(118, 22, 32, 0.7);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    width: 450px;
+  }
+  .rsvp h1 {
+    margin-left: 130px;
+  }
+  form,
+  input,
+  textarea,
+  button {
+    font-family: inherit;
+    font-size: initial;
+  }
+  .form-group {
+    width: 400px;
+  }
+  .form-group label {
+    display: block;
+
+    margin: 0.5rem 0 0.25rem 0;
+  }
+  .form-group [type="text"],
+  .form-group [type="email"] {
+    width: 350px;
+    padding: 0.1rem;
+    border: 1px solid rgba(118, 0, 0, 0.25);
+    border-radius: 5px;
+    background: #ffd9d9;
+  }
+  .form-group [class="hadir"] {
+    width: 100px;
+    padding: 0.1rem;
+    border: 1px solid rgba(118, 0, 0, 0.25);
+    border-radius: 5px;
+    background: #ffd9d9;
+  }
+  .submit {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fd1d1d;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 129px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+  }
+  /* AKHIR RSVP*/
+
+  /* GALLERY*/
+  .galeri {
+    background-image: url(img/Galeri.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom 35%;
+    height: 600px;
+    width: 500px;
+  }
+  .galeri h1 {
+    position: relative;
+    width: 260px;
+    height: 37px;
+    left: 120px;
+    top: 527px;
+
+    font-family: "Berkshire Swash";
+    font-style: normal;
+    font-weight: 550;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.095em;
+
+    color: #ffffff;
+  }
+  /* AKHIR GALLERY*/
+
+  /* DOA */
+  .doa {
+    background-image: url(img/Doa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom 35%;
+    height: 900px;
+    width: 500px;
+  }
+  .doa p {
+    position: relative;
+    width: 380px;
+    height: 350px;
+    left: 60px;
+    top: 100px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  /* AKHIR DOA */
+
+  /* KIRIM PESAN */
+  .pesan {
+    width: 500px;
+    height: 500px;
+  }
+  .kirimpesan {
+    position: relative;
+    top: 50px;
+    background: rgba(118, 22, 32, 0.7);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-align: start;
+    padding-top: 15px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    width: 450px;
+  }
+  .kirimpesan h3 {
+    margin-left: 15px;
+  }
+  form,
+  input,
+  textarea,
+  button {
+    font-family: inherit;
+    font-size: initial;
+  }
+  .form-g {
+    width: 400px;
+  }
+  .form-g label {
+    display: block;
+    margin: 0.5rem 0 0.25rem 0;
+  }
+  .form-g [type="text"],
+  .form-g [type="email"],
+  .form-g textarea {
+    width: 350px;
+    padding: 0.1rem;
+    border: 1px solid rgba(118, 0, 0, 0.25);
+    border-radius: 5px;
+    background: #ffd9d9;
+  }
+  .kirim {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fd1d1d;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 129px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+  }
+  /* AKHIR KIRIM PESAN */
+
+  /* PENUTUP */
+  .penutup {
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+  }
+  .penutup p {
+    padding: 50px 90px 50px 90px;
+    line-height: normal;
+    font-weight: 700;
+  }
+  /* AKHIR PENUTUP */
+
+  /* FOOTER */
+  footer {
+    width: 500px;
+    position: relative;
+  }
+  .foot {
+    font-family: "Times New Roman", Times, serif;
+  }
+  /* AKHIR FOOTER */
 }
