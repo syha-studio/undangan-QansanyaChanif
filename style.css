@@ -29,40 +29,43 @@ div {
 }
 .buka {
   position: relative;
-  top: 50px;
-  left: 40px;
+  margin-left: 122.5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  top: 120px;
 }
 .sambut {
   /* Kepada Bapak/Ibu/Saudara/i */
 
   position: relative;
-  width: 200px;
-  height: 17px;
-  top: 70px;
-  margin-left: 50px;
-  margin-right: 0px;
-  margin-bottom: 10px;
+  width: 250px;
+  height: 43px;
+  top: 75px;
+  padding-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 
   font-family: "Times New Roman";
   font-weight: 400;
-  font-size: 17px;
-  line-height: 17px;
+  font-size: 20px;
   color: #ffffff;
 }
 .nama {
   position: relative;
   width: 400px;
-  height: 39px;
-  margin-left: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  top: 70px;
+  height: 59px;
+  top: 75px;
+  padding-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 
   font-family: "Times New Roman";
   font-style: italic;
   font-weight: 700;
   font-size: 30px;
-  line-height: 44px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -73,69 +76,34 @@ div {
   /* Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami */
 
   position: relative;
-  width: 250px;
-  height: 51px;
-  margin-left: 50px;
-  margin-bottom: 10px;
-  top: 70px;
+  width: 280px;
+  height: 93px;
+  top: 75px;
+  padding-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 
   font-family: "Times New Roman";
   font-weight: 500;
-  font-size: 16px;
-  line-height: 17px;
+  font-size: 18px;
 
   color: #ffffff;
 }
-.mempelai1 {
+.mempelai {
   /* Chanif */
   position: relative;
-  width: 190px;
+  width: 380px;
   height: 76px;
-  margin-left: 250px;
-  margin-bottom: 20px;
-  top: 130px;
+  margin-left: 60px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  top: 75px;
 
   font-family: "CenteriaScript";
   font-weight: 500;
-  font-size: 75px;
-  line-height: 80px;
-
-  color: #ffffff;
-
-  text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-}
-.mempelai2 {
-  /* & */
-
-  position: relative;
-  width: 54px;
-  height: 81px;
-  margin-left: 223px;
-  margin-bottom: 20px;
-  top: 125px;
-
-  font-family: "CenteriaScript";
-  font-weight: 500;
-  font-size: 80px;
-  line-height: 80px;
-
-  color: #ffffff;
-
-  text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-}
-.mempelai3 {
-  /* Qansanya */
-
-  position: relative;
-  width: 190px;
-  height: 76px;
-  margin-left: 30px;
-  margin-bottom: 20px;
-  top: 100px;
-
-  font-family: "CenteriaScript";
-  font-weight: 500;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 80px;
 
   color: #ffffff;
