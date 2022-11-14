@@ -1,52 +1,60 @@
 @font-face {
   font-family: "CenteriaScript";
-  src: url(Fonts/CenteriaScriptDemo.ttf);
+  src: url(Fonts/Adlery_TRIAL.ttf);
 }
 * {
   margin: 0;
   padding: 0;
 }
-.background {
-  background-color: #c45461;
 
-  background-image: url(img/bg-lpage.png);
+div {
+  width: 500px;
+  justify-content: center;
+  margin: auto;
+}
+.background {
+  background: url(img/LandingPage.png);
   background-size: cover;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.tulisan {
+  background: url(img/LandingPage.png);
+  background-size: auto;
+  width: 500px;
+  height: 1000px;
   background-repeat: no-repeat;
-  background-position: center bottom 35%;
-  height: 100vh;
-  overflow: auto;
 }
 .buka {
-  position: absolute;
-  left: 20%;
-  top: 10%;
+  position: relative;
+  top: 50px;
+  left: 40px;
 }
 .sambut {
   /* Kepada Bapak/Ibu/Saudara/i */
 
-  position: absolute;
+  position: relative;
   width: 200px;
   height: 17px;
-  left: 21%;
-  top: 17%;
+  top: 70px;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-bottom: 10px;
 
   font-family: "Times New Roman";
-  font-style: bold;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 17px;
   line-height: 17px;
-  /* identical to box height */
-
   color: #ffffff;
 }
 .nama {
-  /* Putri */
-
-  position: absolute;
+  position: relative;
   width: 400px;
   height: 39px;
-  left: 21%;
-  top: 22%;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  top: 70px;
 
   font-family: "DM Serif Display";
   font-style: italic;
@@ -62,33 +70,32 @@
 .undang {
   /* Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami */
 
-  position: absolute;
-  width: 300px;
+  position: relative;
+  width: 250px;
   height: 51px;
-  left: 21%;
-  top: 30%;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  top: 70px;
 
   font-family: "Times New Roman";
-  font-style: bold;
   font-weight: 500;
   font-size: 16px;
   line-height: 17px;
 
   color: #ffffff;
 }
-
 .mempelai1 {
   /* Chanif */
-  position: absolute;
-  width: 127px;
+  position: relative;
+  width: 190px;
   height: 76px;
-  left: 56%;
-  top: 51%;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  top: 130px;
 
   font-family: "CenteriaScript";
-  font-style: bold;
   font-weight: 500;
-  font-size: 150px;
+  font-size: 75px;
   line-height: 80px;
 
   color: #ffffff;
@@ -98,16 +105,16 @@
 .mempelai2 {
   /* & */
 
-  position: absolute;
-  width: 66px;
+  position: relative;
+  width: 54px;
   height: 81px;
-  left: 50%;
-  top: 43%;
+  margin-left: 223px;
+  margin-bottom: 20px;
+  top: 125px;
 
   font-family: "CenteriaScript";
-  font-style: bold;
   font-weight: 500;
-  font-size: 100px;
+  font-size: 80px;
   line-height: 80px;
 
   color: #ffffff;
@@ -117,16 +124,16 @@
 .mempelai3 {
   /* Qansanya */
 
-  position: absolute;
+  position: relative;
   width: 190px;
   height: 76px;
-  right: 70%;
-  top: 50%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  top: 100px;
 
   font-family: "CenteriaScript";
-  font-style: bold;
   font-weight: 500;
-  font-size: 150px;
+  font-size: 70px;
   line-height: 80px;
 
   color: #ffffff;
@@ -136,241 +143,22 @@
 .foot {
   font-family: "Times New Roman", Times, serif;
 }
-@media screen and (max-width: 1000px) {
-  .buka {
-    position: absolute;
-    left: 17%;
-    top: 7%;
+@media screen and (min-width: 500px) {
+  /* FOOTER */
+  .fot {
+    padding-bottom: 10px;
   }
-  .sambut {
-    /* Kepada Bapak/Ibu/Saudara/i */
-
-    position: absolute;
-    width: 200px;
-    height: 17px;
-    left: 18%;
-    top: 12%;
-
-    font-family: "Times New Roman";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 17px;
-    /* identical to box height */
-
-    color: #ffffff;
-  }
-  .nama {
-    /* Putri */
-
-    position: absolute;
-    width: 275px;
-    height: 39px;
-    left: 18%;
-    top: 18%;
-
-    font-family: "DM Serif Display";
-    font-style: italic;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #ffffff;
-  }
-  .undang {
-    /* Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami */
-
-    position: absolute;
-    width: 275px;
-    height: 51px;
-    left: 18%;
-    top: 25%;
-
-    font-family: "Times New Roman";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 17px;
-
-    color: #ffffff;
-  }
-
-  .mempelai1 {
-    /* Chanif */
-    position: absolute;
-    width: 127px;
-    height: 76px;
-    left: 50%;
-    top: 33%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 100px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
-  .mempelai2 {
-    /* & */
-
-    position: absolute;
-    width: 66px;
-    height: 81px;
-    left: 48%;
-    top: 42%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 100px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
-  .mempelai3 {
-    /* Qansanya */
-
-    position: absolute;
-    width: 190px;
-    height: 76px;
-    right: 60%;
-    top: 50%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 100px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
+  /* AKHIR FOOTER */
 }
+
 @media screen and (max-width: 500px) {
-  .buka {
-    position: absolute;
-    left: 15%;
-    top: 7%;
+  /* FOOTER */
+  footer {
+    width: 500px;
+    position: relative;
   }
-  .sambut {
-    /* Kepada Bapak/Ibu/Saudara/i */
-
-    position: absolute;
-    width: 200px;
-    height: 17px;
-    left: 16%;
-    top: 15%;
-
-    font-family: "Times New Roman";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-    color: #ffffff;
+  .fot {
+    padding-bottom: 10px;
   }
-  .nama {
-    /* Putri */
-
-    position: absolute;
-    width: 235px;
-    height: 39px;
-    left: 16%;
-    top: 18%;
-
-    font-family: "DM Serif Display";
-    font-style: italic;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #ffffff;
-  }
-  .undang {
-    /* Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami */
-
-    position: absolute;
-    width: 200px;
-    height: 51px;
-    left: 16%;
-    top: 24%;
-
-    font-family: "Times New Roman";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 17px;
-
-    color: #ffffff;
-  }
-
-  .mempelai1 {
-    /* Chanif */
-    position: absolute;
-    width: 127px;
-    height: 76px;
-    left: 48%;
-    top: 36%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
-  .mempelai2 {
-    /* & */
-
-    position: absolute;
-    width: 66px;
-    height: 81px;
-    left: 48%;
-    top: 45%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
-  .mempelai3 {
-    /* Qansanya */
-
-    position: absolute;
-    width: 190px;
-    height: 76px;
-    right: 35%;
-    top: 54%;
-
-    font-family: "CenteriaScript";
-    font-style: bold;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 80px;
-
-    color: #ffffff;
-
-    text-shadow: 15px 8px 5px rgba(0, 0, 0, 0.25);
-  }
+  /* AKHIR FOOTER */
 }

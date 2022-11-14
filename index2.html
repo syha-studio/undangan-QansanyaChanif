@@ -14,11 +14,19 @@
   <body>
     <div class="bgw">
       <div class="bg pb-0">
+        <!-- AUDIO -->
+        <div class="a fixed-top">
+          <audio id="audio">
+            <source src="songs/Lagu.mp3" type="audio/mpeg" />
+          </audio>
+          <button id="playPauseBTN" onclick="playPause()">&#9658;</button>
+        </div>
+        <!-- AKHIR AUDIO -->
         <!-- Bottom Bar -->
         <div class="navbar fixed-bottom">
           <ul>
             <li class="list active">
-              <a href="#">
+              <a href="#Home">
                 <span class="icon">
                   <ion-icon name="heart-circle"></ion-icon>
                 </span>
@@ -26,7 +34,7 @@
               </a>
             </li>
             <li class="list">
-              <a href="#">
+              <a href="#Date">
                 <span class="icon">
                   <ion-icon name="today"></ion-icon>
                 </span>
@@ -34,7 +42,7 @@
               </a>
             </li>
             <li class="list">
-              <a href="#">
+              <a href="#RSVP">
                 <span class="icon">
                   <ion-icon name="mail"></ion-icon>
                 </span>
@@ -42,7 +50,7 @@
               </a>
             </li>
             <li class="list">
-              <a href="#">
+              <a href="#Gallery">
                 <span class="icon">
                   <ion-icon name="camera"></ion-icon>
                 </span>
@@ -50,7 +58,7 @@
               </a>
             </li>
             <li class="list">
-              <a href="#">
+              <a href="#Pesan">
                 <span class="icon">
                   <ion-icon name="chatbubble"></ion-icon>
                 </span>
@@ -62,7 +70,7 @@
         </div>
         <!-- Akhir Bottom Bar -->
         <!-- HOME -->
-        <div class="home">
+        <div class="home" id="Home">
           <p class="home-d1">On</p>
           <p class="home-d2">03 <span>December</span> 2022</p>
           <p class="home-d3">We're Getting Married</p>
@@ -72,7 +80,7 @@
         </div>
         <!-- AKHIR HOME -->
         <!-- DATE -->
-        <div class="date">
+        <div class="date" id="Date">
           <p class="date-h">The Date</p>
           <p class="date-d">Sabtu, 03 Desember 2022<br />Pukul 14.00 - 20.00 WIB<br />Grand Whiz Trawas</p>
           <a href="https://g.page/grandwhiztrawas?share" class="date-lokasi"><img src="img/Lokasi.png" height="40vh" alt="lokasi" /></a>
@@ -83,7 +91,7 @@
           </div>
           <!-- AKHIR DATE -->
           <!-- RSVP -->
-          <div class="rsvp pb-4">
+          <div class="rsvp pb-4" id="RSVP">
             <h1>RSVP</h1>
             <p class="mb-0">Mohon untuk mengisi konfirmasi kehadiran berikut.</p>
             <form method="post" id="myForm" name="submit-to-google-sheet">
@@ -116,7 +124,7 @@
         <!-- AKHIR RSVP -->
         <!-- GALERI -->
         <div class="galeri">
-          <h1>Gallery Photo</h1>
+          <h1 id="Gallery">Gallery Photo</h1>
         </div>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -154,7 +162,7 @@
         </div>
         <!-- AKHIR DOA -->
         <!-- PESAN -->
-        <div class="pesan">
+        <div class="pesan" id="Pesan">
           <div class="kirimpesan pb-4">
             <h3>Kirim Pesan atau Doa Restu</h3>
             <p class="mb-0">Jika berkenan, silahkan kirimkan pesan singkat atau doa restu anda</p>
@@ -191,7 +199,6 @@
         <!-- AKHIR PENUTUP -->
       </div>
     </div>
-
     <script type="text/javascript">
       var countDate = new Date("Dec 03 2022 00:00:00").getTime();
       function newYear() {
@@ -239,6 +246,22 @@
           .then((response) => alert("Terima Kasih Telah mengirim pesan atau Doa Restunya. Semua Akan Kami Baca"))
           .catch((error) => console.error("Error!", error.message));
       });
+    </script>
+    <script type="text/javascript">
+      var audio = document.getElementById("audio");
+      var playPauseBTN = document.getElementById("playPauseBTN");
+      var count = 0;
+      function playPause() {
+        if (count == 0) {
+          count = 1;
+          audio.play();
+          playPauseBTN.innerHTML = "&#9208;";
+        } else {
+          count = 0;
+          audio.pause();
+          playPauseBTN.innerHTML = "&#9658;";
+        }
+      }
     </script>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
