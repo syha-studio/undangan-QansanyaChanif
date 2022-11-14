@@ -2,6 +2,7 @@
   font-family: "CenteriaScript";
   src: url(Fonts/Adlery_TRIAL.ttf);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -53,10 +54,11 @@ div {
   width: 400px;
   height: 39px;
   margin-left: 50px;
+  margin-top: 10px;
   margin-bottom: 10px;
   top: 70px;
 
-  font-family: "DM Serif Display";
+  font-family: "Times New Roman";
   font-style: italic;
   font-weight: 700;
   font-size: 30px;
