@@ -583,7 +583,6 @@ button {
 
 /* GALLERY*/
 .galeri {
-  display: none;
   background-image: url(img/Galeri.png);
   background-size: contain;
   background-repeat: no-repeat;
