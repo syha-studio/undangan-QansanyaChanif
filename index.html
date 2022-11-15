@@ -61,7 +61,7 @@
       <div class="bg pb-0">
         <!-- AUDIO -->
         <div class="a fixed-top">
-          <audio id="audio">
+          <audio id="audio" autoplay loop>
             <source src="songs/Lagu.mp3" type="audio/mpeg" />
           </audio>
           <button id="playPauseBTN" onclick="playPause()">&#9658;</button>
@@ -145,10 +145,6 @@
                 <input type="text" id="NAMA" name="NAMA" />
               </div>
               <div class="form-group">
-                <label for="EMAIL">Email</label>
-                <input type="email" id="EMAIL" name="EMAIL" />
-              </div>
-              <div class="form-group">
                 <label for="KONFIRMASI">konfirmasi kehadiran</label>
                 <select class="hadir" id="KONFIRMASI" name="KONFIRMASI">
                   <option selected>Pilih</option>
@@ -215,10 +211,6 @@
               <div class="form-g">
                 <label for="NAMA">Nama Anda</label>
                 <input type="text" id="NAMA" name="NAMA" />
-              </div>
-              <div class="form-g">
-                <label for="EMAIL">Email</label>
-                <input type="email" id="EMAIL" name="EMAIL" />
               </div>
               <div class="form-g">
                 <label for="PESAN">Pesan atau Doa</label>
