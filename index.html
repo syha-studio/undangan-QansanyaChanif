@@ -6,22 +6,34 @@
     <title>Qansanya & Chanif - Undangan Pernikahan</title>
     <link rel="icon" type="icon" href="img/Title.png" />
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <!-- Akhir My CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
   </head>
 
   <body>
-    <div class="background">
-      <div class="tulisan">
-        <h1 class="sambut">Kepada Bapak/Ibu/Saudara/i</h1>
-        <p class="nama" id="nama">NA</p>
-        <p class="undang">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami</p>
-        <h4 class="mempelai">Qansanya & Chanif</h4>
-        <a href="index2.html" class="buka"><img src="img/BukaUndangan.png" height="50vh" alt="BukaUndangan" /></a>
+    <!-- Landing Page -->
+    <div id="overlay">
+      <div class="background">
+        <div class="tulisan">
+          <p class="sambut">Kepada Bapak/Ibu/Saudara/i</p>
+          <p class="nama" id="nama">NA</p>
+          <p class="undang">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami</p>
+          <h4 class="mempelai">Qansanya & Chanif</h4>
+          <a class="buka"><img src="img/BukaUndangan.png" height="50vh" alt="BukaUndangan" onclick="off()" /></a>
+        </div>
       </div>
     </div>
 
+    <script>
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+        document.getElementById("bgw").style.display = "block";
+        audio.play();
+        count = 1;
+        playPauseBTN.innerHTML = "&#9208;";
+      }
+    </script>
     <script>
       function getParameterByName(name) {
         const url = window.location.search;
@@ -42,6 +54,264 @@
       }
       document.getElementById("nama").innerText = getParameterByName("to");
     </script>
+    <!-- Akhir Landing Page -->
+
+    <!-- Undangan -->
+    <div class="bgw" id="bgw">
+      <div class="bg pb-0">
+        <!-- AUDIO -->
+        <div class="a fixed-top">
+          <audio id="audio">
+            <source src="songs/Lagu.mp3" type="audio/mpeg" />
+          </audio>
+          <button id="playPauseBTN" onclick="playPause()">&#9658;</button>
+        </div>
+        <!-- AKHIR AUDIO -->
+        <!-- Bottom Bar -->
+        <div class="navbar fixed-bottom">
+          <ul>
+            <li class="list active">
+              <a href="#Home">
+                <span class="icon">
+                  <ion-icon name="heart-circle"></ion-icon>
+                </span>
+                <span class="text">Home</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#Date">
+                <span class="icon">
+                  <ion-icon name="today"></ion-icon>
+                </span>
+                <span class="text">Date</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#RSVP">
+                <span class="icon">
+                  <ion-icon name="mail"></ion-icon>
+                </span>
+                <span class="text">RSVP</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#Gallery">
+                <span class="icon">
+                  <ion-icon name="camera"></ion-icon>
+                </span>
+                <span class="text">Gallery</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#Pesan">
+                <span class="icon">
+                  <ion-icon name="chatbubble"></ion-icon>
+                </span>
+                <span class="text">Message</span>
+              </a>
+            </li>
+            <div class="indicator"></div>
+          </ul>
+        </div>
+        <!-- Akhir Bottom Bar -->
+        <!-- HOME -->
+        <div class="home" id="Home">
+          <p class="home-d1">On</p>
+          <p class="home-d2">03 <span>December</span> 2022</p>
+          <p class="home-d3">We're Getting Married</p>
+          <p class="home-m1">Nur Chanif Choiri</p>
+          <p class="home-m2">&</p>
+          <p class="home-m3">Qansanya Hadie ‘Aina</p>
+        </div>
+        <!-- AKHIR HOME -->
+        <!-- DATE -->
+        <div class="date" id="Date">
+          <p class="date-h">The Date</p>
+          <p class="date-d">Sabtu, 03 Desember 2022<br />Pukul 10.00 - 14.00 WIB<br />Grand Whiz Trawas</p>
+          <a href="https://g.page/grandwhiztrawas?share" class="date-lokasi"><img src="img/Lokasi.png" height="40vh" alt="lokasi" /></a>
+          <div class="date-cd">
+            <h2>to Our Wedding</h2>
+            <div id="days">NA</div>
+            <h3>Days</h3>
+          </div>
+          <!-- AKHIR DATE -->
+          <!-- RSVP -->
+          <div class="rsvp pb-4" id="RSVP">
+            <h1>RSVP</h1>
+            <p class="mb-0">Mohon untuk mengisi konfirmasi kehadiran berikut.</p>
+            <form method="post" id="myForm" name="submit-to-google-sheet">
+              <div class="form-group">
+                <label for="NAMA">Nama Anda</label>
+                <input type="text" id="NAMA" name="NAMA" />
+              </div>
+              <div class="form-group">
+                <label for="EMAIL">Email</label>
+                <input type="email" id="EMAIL" name="EMAIL" />
+              </div>
+              <div class="form-group">
+                <label for="KONFIRMASI">konfirmasi kehadiran</label>
+                <select class="hadir" id="KONFIRMASI" name="KONFIRMASI">
+                  <option selected>Pilih</option>
+                  <option value="Hadir">Hadir</option>
+                  <option value="Tidak Hadir">Tidak Hadir</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="JUMLAH">Jumlah yang Hadir</label>
+                <input type="text" id="JUMLAH" name="JUMLAH" />
+              </div>
+              <div class="form-group">
+                <button type="submit" class="submit" value="KIRIM RSVP">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- AKHIR RSVP -->
+        <!-- GALERI -->
+        <div class="galeri">
+          <h1 id="Gallery">Gallery Photo</h1>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- tambah foto disini -->
+            <div class="carousel-item active">
+              <img src="img/Foto1.png" class="d-block w-100" alt="Foto1" />
+            </div>
+            <div class="carousel-item">
+              <img src="img/Foto2.png" class="d-block w-100" alt="Foto2" />
+            </div>
+            <div class="carousel-item">
+              <img src="img/Foto3.png" class="d-block w-100" alt="Foto3" />
+            </div>
+            <!-- akhir tambah foto -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- AKHIR GALERI -->
+        <!-- DOA -->
+        <div class="doa">
+          <p>
+            "Ya Allah, sesungguhnya engkau Maha Mengetahui bahwa hati-hati berkumpul atas dasar cinta kepada-Mu; bertemu atas dasar taat pada-Mu; bersatu atas dasar dakwah kepada-Mu, dan berjanji setia untuk membela syariat-Mu. Maka
+            kuatkanlah yaa Allah, ikatan pertaliannya; lestarikanlah kasih sayangnya; tunjukkanlah jalannya; dan penuhilah dengan cahaya-Mu yang tiada redup; lapangkanlah dadanya dengan limpahan iman kepada-Mu dan indahnya tawakal pada-Mu;
+            hidupkanlah ia dengan makrifat kepada-Mu; dan matikanlah ia sebagai syahid di jalan-Mu. Sesungguhnya Engkau sebaik-baik pelindung dan sebaik-baik penolong. Aamiin Ya Allah."
+            <br />
+            (Doa Rabithah)
+          </p>
+        </div>
+        <!-- AKHIR DOA -->
+        <!-- PESAN -->
+        <div class="pesan" id="Pesan">
+          <div class="kirimpesan pb-4">
+            <h3>Kirim Pesan atau Doa Restu</h3>
+            <p class="mb-0">Jika berkenan, silahkan kirimkan pesan singkat atau doa restu anda</p>
+            <form method="post" id="myForm" name="kirim-to-google-sheet">
+              <div class="form-g">
+                <label for="NAMA">Nama Anda</label>
+                <input type="text" id="NAMA" name="NAMA" />
+              </div>
+              <div class="form-g">
+                <label for="EMAIL">Email</label>
+                <input type="email" id="EMAIL" name="EMAIL" />
+              </div>
+              <div class="form-g">
+                <label for="PESAN">Pesan atau Doa</label>
+                <textarea id="PESAN" name="PESAN" rows="3"></textarea>
+              </div>
+              <div class="form-g">
+                <button type="submit" class="kirim" value="kirim pesan">Kirim</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- AKHIR PESAN -->
+        <!-- PENUTUP -->
+        <div class="penutup">
+          <p>
+            Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai. Atas kehadiran serta doa restu, kami ucapkan terima kasih <br />
+            <br />
+            Turut berbahagia <br />
+            Segenap Keluarga Besar <br />
+            Chanif & Qansanya
+          </p>
+        </div>
+        <!-- AKHIR PENUTUP -->
+      </div>
+    </div>
+    <script type="text/javascript">
+      var countDate = new Date("Dec 03 2022 00:00:00").getTime();
+      function newYear() {
+        var now = new Date().getTime();
+        gap = countDate - now;
+        var detik = 1000;
+        var menit = detik * 60;
+        var jam = menit * 60;
+        var hari = jam * 24;
+
+        var h = Math.floor(gap / hari);
+
+        document.getElementById("days").innerText = h;
+      }
+      setInterval(function () {
+        newYear();
+      }, 1000);
+    </script>
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbwA1vFzjpGdRGcD_FTURjZZeSQpTD_xJBC_SVpaYbdxTb3A7aTUvl6Xh2LTvguWHs8/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => alert("Terima kasih sudah mengisi RSVP"))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script>
+      const list = document.querySelectorAll(".list");
+      function activeLink() {
+        list.forEach((item) => item.classList.remove("active"));
+        this.classList.add("active");
+      }
+      list.forEach((item) => item.addEventListener("click", activeLink));
+    </script>
+    <script>
+      const scriptURL1 = "https://script.google.com/macros/s/AKfycbw94rY6ETOq7XO_9SfFg31hfZN3-grfXFj4qnGSqejwMjVIyO0iXNXVA6jlfqwg7L7O/exec";
+      const form1 = document.forms["kirim-to-google-sheet"];
+
+      form1.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL1, { method: "POST", body: new FormData(form1) })
+          .then((response) => alert("Terima Kasih Telah mengirim pesan atau Doa Restunya. Semua Akan Kami Baca"))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script type="text/javascript">
+      var audio = document.getElementById("audio");
+      var playPauseBTN = document.getElementById("playPauseBTN");
+      var count = 0;
+      function playPause() {
+        if (count == 0) {
+          count = 1;
+          audio.play();
+          playPauseBTN.innerHTML = "&#9208;";
+        } else {
+          count = 0;
+          audio.pause();
+          playPauseBTN.innerHTML = "&#9658;";
+        }
+      }
+    </script>
+    <!-- Akhir Undangan -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
