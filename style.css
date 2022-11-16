@@ -529,9 +529,9 @@ div {
   width: 450px;
 }
 .rsvp h1 {
-  width: 82px;
+  width: 106px;
   font-family: Poppin-Bold;
-  margin: 0px 134px 10px 134px;
+  margin: 0px 122px 10px 122px;
 }
 form,
 input,
@@ -569,8 +569,8 @@ button {
   color: white;
   width: 90px;
   font-weight: bold;
-  margin: 20px 130px 5px 130px;
-  padding: 0.5rem 1rem;
+  margin: 20px 0px 5px 129px;
+  padding: 0.5rem 1.6rem;
   border: none;
   cursor: pointer;
   border-radius: 20px;
