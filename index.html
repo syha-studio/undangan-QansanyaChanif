@@ -16,9 +16,9 @@
     <div id="overlay">
       <div class="background">
         <div class="tulisan">
-          <p class="sambut">Kepada Bapak/Ibu/Saudara/i</p>
+          <p class="sambut">Kepada Yth. Bapak/Ibu/Saudara/i</p>
           <p class="nama" id="nama">NA</p>
-          <p class="undang">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami</p>
+          <p class="undang">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Anak Kami</p>
           <h4 class="mempelai">Qansanya & Chanif</h4>
           <a class="buka"><img src="img/BukaUndangan.png" height="50vh" alt="BukaUndangan" onclick="off()" /></a>
         </div>
@@ -119,9 +119,17 @@
           <p class="home-d1">On</p>
           <p class="home-d2">03 <span>December</span> 2022</p>
           <p class="home-d3">We're Getting Married</p>
-          <p class="home-m1">Nur Chanif Choiri</p>
+          <p class="home-m1">Nur Chanif Choiri, S.TP</p>
+          <p class="home-k1">
+            Putra dari Bapak H. Umar Ma'sum (Alm) <br />
+            & Ibu Hj. Nur Asri Ningsih (Almh)
+          </p>
           <p class="home-m2">&</p>
-          <p class="home-m3">Qansanya Hadie ‘Aina</p>
+          <p class="home-m3">Qansanya Hadie ‘Aina, S.Psi.</p>
+          <p class="home-k2">
+            Putri dari Bapak Drs. Nurhadi Bahri M.Pd. <br />
+            & Ibu Dra. Rini Mustikawati
+          </p>
         </div>
         <!-- AKHIR HOME -->
         <!-- DATE -->
@@ -225,12 +233,36 @@
         <!-- AKHIR PESAN -->
         <!-- PENUTUP -->
         <div class="penutup">
+          <div class="amplop">
+            <h1>Amplop Digital</h1>
+            <img class="bca" src="img/LogoBCA.png" alt="BCA" height="130hv" />
+            <img class="bri" src="img/LogoBRI.png" alt="BRI" height="72hv" />
+            <p>
+              <span>8290944649 <br /></span>
+              A.n.&nbsp;Qansanya&nbsp;Hadie&nbsp;‘Aina
+            </p>
+            <p id="bri">
+              <span>058501012346507 <br /></span>
+              A.n.&nbsp;Qansanya&nbsp;Hadie&nbsp;‘Aina
+            </p>
+            <p id="text1" style="display: none">8290944649</p>
+            <p id="text2" style="display: none">058501012346507</p>
+            <button class="salin" id="cbca" onclick="copy('text1')">Salin BCA</button>
+            <button class="salin" id="cbri" onclick="copy('text2')">Salin BRI</button>
+          </div>
           <p>
             Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai. Atas kehadiran serta doa restu, kami ucapkan terima kasih <br />
             <br />
-            Turut berbahagia <br />
+            Turut mengundang <br />
             Segenap Keluarga Besar <br />
-            Chanif & Qansanya
+          </p>
+          <p id="keluarga">
+            Drs. Nurhadi Bahri, M.Pd.<br />
+            & Dra. Rini Mustikawati
+          </p>
+          <p id="keluarga2">
+            H. Umar Ma'sum (Alm) <br />
+            & Hj. Nur Asri Ningsih (Almh)
           </p>
         </div>
         <!-- AKHIR PENUTUP -->
@@ -298,6 +330,18 @@
           audio.pause();
           playPauseBTN.innerHTML = "&#9658;";
         }
+      }
+    </script>
+    <script>
+      function copy(copyId) {
+        let inputElement = document.createElement("input");
+        inputElement.type = "text";
+        let copyText = document.getElementById(copyId).innerHTML;
+        inputElement.value = copyText;
+        document.body.appendChild(inputElement);
+        inputElement.select();
+        document.execCommand("copy");
+        document.body.removeChild(inputElement);
       }
     </script>
     <!-- Akhir Undangan -->
